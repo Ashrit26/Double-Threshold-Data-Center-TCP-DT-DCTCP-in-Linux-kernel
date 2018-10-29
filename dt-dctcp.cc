@@ -224,7 +224,6 @@ TcpDctcp::CwndEvent (Ptr<TcpSocketState> tcb,
       UpdateAckReserved (tcb, event);
       break;
     default:
-      /* Don't care for the rest. */
       break;
     }
 
